@@ -25,12 +25,6 @@ jobs:
      - name: Check out Git repository
 
        uses: actions/checkout@main
-
-
-
-   
-
-
      - name: Run GitHub Super Linter
 
        uses: github/super-linter@main
@@ -54,4 +48,3 @@ jobs:
          DEFAULT_BRANCH: main
 
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
